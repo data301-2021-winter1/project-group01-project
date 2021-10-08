@@ -19,7 +19,7 @@ Steam is one of the largest video game digital distribution services and is used
 
 - Person 1: Hello my name is Jarod Guigon, I am a third year computer science student.
 - Person 2: Hey, my name is Harshal Patel, I am also a third year computer science student.
-- Person 3: one sentence about you!
+- Person 3: Hi, my name is Lance Corton, I too am a third year computer science student.
 
 ## Images
 
