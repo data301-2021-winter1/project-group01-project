@@ -29,7 +29,8 @@ Steam is one of the largest video game digital distribution services and is used
 
 ## References
 
-{Add your stuff here}
+[Kaggle - Popularity of games on Steam](https://www.kaggle.com/michau96/popularity-of-games-on-steam)  
+[Kaggle - Top games on Twitch 2016 - 2021](https://www.kaggle.com/rankirsh/evolution-of-top-games-on-twitch/version/8)
 
 
 
