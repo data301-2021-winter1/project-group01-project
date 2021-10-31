@@ -25,6 +25,8 @@ Steam is one of the largest video game digital distribution services and is used
 
 {You can use this area for any images you want to include}
 
+!![](images/Gamer.jpg) 
+
 <img src ="images/Gamer.jpg" width="1000px">
 
 ## References
