@@ -22,6 +22,5 @@ def load_process_csgo(path):
         .assign(rolling_gain = df2['gain'].rolling(7, center=True).mean())
         .dropna()
     )
-
     df3 = df3[['date', 'avg', 'gain', 'rolling_gain']]
     return df3
