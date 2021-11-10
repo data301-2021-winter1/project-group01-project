@@ -23,8 +23,6 @@ def load_process_csgo(path, my_dict):
         .dropna()
         .assign(release_Dates='')
     )
-    print(df3.dtypes)
-
     for x, y in my_dict.items():
         for z in y:
             df3.loc[df3['date'] == pd.to_datetime(z, format='%Y%m%d'), 'release_Dates'] += (x+"/")
