@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import datetime
 
-def load_csgo(path, path_second):
+def load_csgo(path, path_second, tournament_dict):
     # load data
     df1 = (
         pd.read_csv(path, encoding = 'latin')
@@ -47,9 +47,13 @@ def load_csgo(path, path_second):
     df3 = ( 
         pd.merge(df1_sortdate, df2_sortdate, how = "left", on = ['date'])
         .dropna()
+        .assign(Tournament = 'No Tournament')
+        
 #         .sort_values('Year')
     )
-    df3 = df3[['date','Avg_players','Gain_players','Peak_viewers','Avg_viewers']]
-
+    df3 = df3[['date','Avg_players','Gain_players','Peak_viewers','Avg_viewers','Tournament']]
+    for x, y in tournament_dict.items():
+        for z in y:
+            df3.loc[df3['date'] == pd.to_datetime(z,format='%Y%m%d'),'Tournament'] = (x)
     return df3
     
