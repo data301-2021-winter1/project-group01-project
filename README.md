@@ -1,11 +1,9 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=463931&assignment_repo_type=GroupAssignmentRepo)
 # Group 01 - Investigation into the Trends of the Popularity of Steam Games
 
-- Your title can change over time.
-
 ## Milestones
 
-Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html).
+Details for Milestone are available on [Canvas](https://firas.moosvi.com/courses/2021_WT1/data301/project/introduction.html#).
 
 ## Describe your topic/interest in about 150-200 words
 
@@ -22,10 +20,6 @@ Steam is one of the largest video game digital distribution services and is used
 - Person 3: Hi, my name is Lance Corton, I too am a third year computer science student.
 
 ## Images
-
-{You can use this area for any images you want to include}
-
-!![](images/Gamer.jpg) 
 
 <img src ="images/Gamer.jpg" width="1000px">
 
