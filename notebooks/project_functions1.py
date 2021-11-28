@@ -15,8 +15,7 @@ def load_process_csgo(path, my_dict):
         .assign(day='1')
     )
     df3 = (
-        df2
-        .assign(date = pd.to_datetime(df2['year'].astype(str)  + df2['month'] + df2['day'], format='%Y%B%d').dt.date)
+        df2.assign(date = pd.to_datetime(df2['year'].astype(str)  + df2['month'] + df2['day'], format='%Y%B%d').dt.date)
         .drop(['year', 'month', 'day', 'peak', 'avg_peak_perc', 'gamename'], axis = 1)
         .sort_values('date', ignore_index = True)
         
